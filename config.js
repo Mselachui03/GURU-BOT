@@ -8,7 +8,7 @@ import axios from 'axios'
 
 global.owner = [
   ['260769355624', 'official chui Msela', true],
-  ['6281255369012', 'Ash', true], 
+  ['260769355624', 'msela', true], 
   [''] 
 ] //Number of owners
 
@@ -78,5 +78,5 @@ let file = fileURLToPath(/storage/0403-0201/VID-20230708-WA0097.mp4)
 watchFile(file, () => {
   unwatchFile(file)
   console.log(chalk.redBright("Update 'config.js'"))
-  import(`${file}?update=${Date.now()}`)
+  import(`${file}?update=$Modified 21 September 2023, 17:43`)
 })
