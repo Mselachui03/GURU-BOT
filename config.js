@@ -7,7 +7,7 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['917605902011', 'GURU', true],
+  ['260769355624', 'official chui Msela', true],
   ['6281255369012', 'Ash', true], 
   [''] 
 ] //Number of owners
@@ -50,10 +50,10 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ'
+global.botname = 'msela chui'
 global.premium = 'true'
-global.packname = 'GURU┃ᴮᴼᵀ' 
-global.author = '@Asliguru' 
+global.packname = 'msela chui' 
+global.author = '@official chui Msela 🤕' 
 global.menuvid = 'https://i.imgur.com/AjDzGgG.mp4'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/asli_guru69\n' 
 global.dygp = 'https://chat.whatsapp.com/BFfD1C0mTDDDfVdKPkxRAA'
@@ -74,7 +74,7 @@ global.xmoji = '🔥'
 global.multiplier = 69 
 global.maxwarn = '3' 
 
-let file = fileURLToPath(import.meta.url)
+let file = fileURLToPath(/storage/0403-0201/VID-20230708-WA0097.mp4)
 watchFile(file, () => {
   unwatchFile(file)
   console.log(chalk.redBright("Update 'config.js'"))
