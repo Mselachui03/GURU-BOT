@@ -75,7 +75,7 @@ global.multiplier = 69
 global.maxwarn = '3' 
 
 let file = fileURLToPath(/storage/0403-0201/VID-20230708-WA0097.mp4)
-watchFile(file, () => {
+watchFile(file, (.menu) => {
   unwatchFile(file)
   console.log(chalk.redBright("Update 'config.js'"))
   import(`${file}?update=$Modified 21 September 2023, 17:43`)
